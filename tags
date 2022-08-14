@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+METHOD_GET	webbench.cpp	/^#define METHOD_GET /;"	d	file:
+METHOD_HEAD	webbench.cpp	/^#define METHOD_HEAD /;"	d	file:
+METHOD_OPTIONS	webbench.cpp	/^#define METHOD_OPTIONS /;"	d	file:
+METHOD_TRACE	webbench.cpp	/^#define METHOD_TRACE /;"	d	file:
+PROGRAM_VERSION	webbench.cpp	/^#define PROGRAM_VERSION /;"	d	file:
+REQUEST_SIZE	webbench.cpp	/^#define REQUEST_SIZE /;"	d	file:
+__anon12e830140102	webbench.cpp	/^        vs.emplace_back(std::async(std::launch::async, []() {$/;"	f	function:bench	file:
+addr	webbench.cpp	/^struct sockaddr_in addr ;$/;"	v	typeref:struct:sockaddr_in
+alarm_handler	webbench.cpp	/^static void alarm_handler(int signal) { timerexpired = 1; }$/;"	f	typeref:typename:void	file:
+bench	webbench.cpp	/^static int bench(void)$/;"	f	typeref:typename:int	file:
+benchcore	webbench.cpp	/^void benchcore(const char *host, const int port, const char *req)$/;"	f	typeref:typename:void
+benchtime	webbench.cpp	/^int benchtime = 30;$/;"	v	typeref:typename:int
+build_request	webbench.cpp	/^void build_request(const char *url)$/;"	f	typeref:typename:void
+bytes	webbench.cpp	/^      int speed, failed, bytes;$/;"	m	struct:bench::result	typeref:typename:int	file:
+bytes	webbench.cpp	/^thread_local int bytes = 0;$/;"	v	typeref:typename:thread_local int
+clients	webbench.cpp	/^int clients = 1;$/;"	v	typeref:typename:int
+failed	webbench.cpp	/^      int speed, failed, bytes;$/;"	m	struct:bench::result	typeref:typename:int	file:
+failed	webbench.cpp	/^thread_local int failed = 0;$/;"	v	typeref:typename:thread_local int
+force	webbench.cpp	/^int force = 0;$/;"	v	typeref:typename:int
+force_reload	webbench.cpp	/^int force_reload = 0;$/;"	v	typeref:typename:int
+host	webbench.cpp	/^char host[MAXHOSTNAMELEN];$/;"	v	typeref:typename:char[]
+http10	webbench.cpp	/^int http10 = 1; \/* 0 - http\/0.9, 1 - http\/1.0, 2 - http\/1.1 *\/$/;"	v	typeref:typename:int
+long_options	webbench.cpp	/^static const struct option long_options[] = {{"force", no_argument, &force, 1},$/;"	v	typeref:typename:const struct option[]	file:
+main	webbench.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+method	webbench.cpp	/^int method = METHOD_GET;$/;"	v	typeref:typename:int
+mypipe	webbench.cpp	/^int mypipe[2];$/;"	v	typeref:typename:int[2]
+proxyhost	webbench.cpp	/^char *proxyhost = NULL;$/;"	v	typeref:typename:char *
+proxyport	webbench.cpp	/^int proxyport = 80;$/;"	v	typeref:typename:int
+request	webbench.cpp	/^char request[REQUEST_SIZE];$/;"	v	typeref:typename:char[]
+result	webbench.cpp	/^    struct result{$/;"	s	function:bench	file:
+speed	webbench.cpp	/^      int speed, failed, bytes;$/;"	m	struct:bench::result	typeref:typename:int	file:
+speed	webbench.cpp	/^thread_local int speed = 0;$/;"	v	typeref:typename:thread_local int
+timerexpired	webbench.cpp	/^volatile int timerexpired = 0;$/;"	v	typeref:typename:volatile int
+usage	webbench.cpp	/^static void usage(void)$/;"	f	typeref:typename:void	file:

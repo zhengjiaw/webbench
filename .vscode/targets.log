@@ -1,0 +1,308 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Aug 13 21:59:54 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from 'Makefile', line 5)
+PREFIX = /usr/local
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = ELECTRON_RUN_AS_NODE/w:
+# default
+.SHELLFLAGS := -c
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/wzj/work/webbench-1.5
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_translationsConfigFile":"/home/wzj/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/tcf.json","_cacheRoot":"/home/wzj/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_resolvedLanguagePackCoreLocation":"/home/wzj/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"/home/wzj/.vscode-server/data/clp/08bdb29c43b4c03defdaaecc51ad48b6.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /mnt/d/installed/essential/Microsoft VS Code/bin/code
+# makefile (from 'Makefile', line 1)
+CFLAGS = -Wall -ggdb -W  -g3
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 6)
+VERSION = 1.5
+# environment
+VSCODE_CWD = /mnt/d/installed/essential/Microsoft VS Code
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+ALL_PROXY = http://172.20.96.1:10811
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-824e33f8-2d99-44cf-bb80-35a19ceac283.sock
+# makefile (from 'Makefile', line 4)
+LDFLAGS = 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
+%F = $(notdir $%)
+# environment
+HTTPS_PROXY = http://172.20.96.1:10811
+# environment
+PWD = /home/wzj/work/webbench-1.5
+# default
+.LOADED := 
+# environment
+WSL_INTEROP = /run/WSL/916_interop
+# environment
+PULSE_SERVER = /mnt/wslg/PulseServer
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/wzj
+# environment
+LOGNAME = wzj
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+ZSH = /home/wzj/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = /home/wzj/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/installed/code/python2/:/mnt/d/installed/code/python2/Scripts:/mnt/d/installed/bin/CUDA/bin:/mnt/d/installed/bin/CUDA/libnvvp:/mnt/d/installed/bin/Anaconda3.4.4.0:/mnt/d/installed/bin/Anaconda3.4.4.0/Library/mingw-w64/bin:/mnt/d/installed/bin/Anaconda3.4.4.0/Library/usr/bin:/mnt/d/installed/bin/Anaconda3.4.4.0/Library/bin:/mnt/d/installed/bin/Anaconda3.4.4.0/Scripts:/mnt/d/installed/essential/Vmware/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/installed/tools/AOMEI/AOMEI Backupper/6.8.0:/mnt/d/installed/bin/Nodejs/:/mnt/d/installed/essential/PicGo/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/d/installed/tools/PCL 1.8.1/bin:/mnt/d/installed/tools/:/mnt/c/Program Files/Pandoc/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/installed/essential/Qt5.14.2/Tools/mingw730_64/bin:/mnt/d/installed/bin/mingw64/bin/:/mnt/d/installed/tools/cmder:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/d/code/depot_tools:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/installed/code/vcpkg:/mnt/d/installed/essential/nodejs/:/mnt/c/Program Files (x86)/NTP/bin:/mnt/d/installed/tools/Notepad++:/mnt/c/Users/17296/AppData/Local/Microsoft/WindowsApps:/mnt/d/installed/tools/SciTools/bin/pc-win64:/mnt/d/installed/essential/Microsoft VS Code/bin:/mnt/c/Users/17296/.dotnet/tools:/mnt/c/Users/17296/AppData/Roaming/npm
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 2)
+CC = g++
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = wzj
+# makefile
+.DEFAULT_GOAL := all
+# environment
+NAME = Code
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/17296/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
+# environment
+host_port = 10811
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /mnt/d/installed/essential/Microsoft VS Code
+# default
+.VARIABLES := 
+# makefile (from 'Makefile', line 7)
+TMPDIR = /tmp/webbench-$(VERSION)
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HTTP_PROXY = https://172.20.96.1:10811
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# environment
+DISPLAY = :0
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+HOSTTYPE = x86_64
+# makefile (from 'Makefile', line 3)
+LIBS = 
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+WAYLAND_DISPLAY = wayland-0
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+WSL_DISTRO_NAME = Ubuntu-20.04
+# variable set hash-table stats:
+# Load=80/1024=8%, Rehash=0, Collisions=9/110=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2080, inode 261596): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: webbench tags
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean install all tar
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+socket.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-13 21:59:44.114060704
+#  File has been updated.
+#  Successfully updated.
+
+tags: webbench.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-13 21:55:39.164057535
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 12):
+	-ctags *.cpp
+
+webbench: webbench.o Makefile
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-13 21:59:53.954060832
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 22):
+	g++ $(CFLAGS) $(LDFLAGS) -o webbench webbench.o $(LIBS)  -lpthread
+
+webbench.o: webbench.cpp socket.c Makefile
+#  Implicit rule search has been done.
+#  Last modified 2022-08-13 21:59:53.83406083
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-13 21:58:03.424059401
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 25):
+	-rm -f *.o webbench *~ core *.core tags
+	
+
+tar: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 28):
+	-debian/rules clean
+	rm -rf $(TMPDIR)
+	install -d $(TMPDIR)
+	cp -p Makefile webbench.cpp socket.c webbench.1 $(TMPDIR)
+	install -d $(TMPDIR)/debian
+	-cp -p debian/* $(TMPDIR)/debian
+	ln -sf debian/copyright $(TMPDIR)/COPYRIGHT
+	ln -sf debian/changelog $(TMPDIR)/ChangeLog
+	-cd $(TMPDIR) && cd .. && tar cozf webbench-$(VERSION).tar.gz webbench-$(VERSION)
+
+# Not a target:
+webbench.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-13 21:55:17.554057255
+#  File has been updated.
+#  Successfully updated.
+
+install: webbench
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+ 
+#  recipe to execute (from 'Makefile', line 15):
+	install -s webbench $(DESTDIR)$(PREFIX)/bin	
+	install -m 644 webbench.1 $(DESTDIR)$(PREFIX)/man/man1	
+	install -d $(DESTDIR)$(PREFIX)/share/doc/webbench
+	install -m 644 debian/copyright $(DESTDIR)$(PREFIX)/share/doc/webbench
+	install -m 644 debian/changelog $(DESTDIR)$(PREFIX)/share/doc/webbench
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/41=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 23 / storage = 196 B / avg = 8 B
+# current buf: size = 8162 B / used = 196 B / count = 23 / avg = 8 B
+
+# strcache performance: lookups = 53 / hit rate = 56%
+# hash-table stats:
+# Load=23/8192=0%, Rehash=0, Collisions=1/53=2%
+# Finished Make data base on Sat Aug 13 21:59:54 2022
+
+ 
